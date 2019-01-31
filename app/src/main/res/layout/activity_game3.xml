@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".landlord3.Intro3Activity"
+    android:layout_weight="2">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/game3_rtvLayout1"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/lightYellow"
+        >
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_def_p1_name"
+            android:id="@+id/game3_sn1"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/tog_btn_fm"
+            android:textOn="@string/tog_btn_ll"
+            android:id="@+id/game3_dzBtn1"
+            android:layout_toRightOf="@id/game3_sn1"
+            android:layout_marginLeft="25sp"
+            android:checked="false"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_def_zero"
+            android:id="@+id/game3_bannkazu1"
+            android:layout_centerVertical="true"
+            android:textSize="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game3_rtvLayout1"
+        android:id="@+id/game3_rtvLayout2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_def_p2_name"
+            android:id="@+id/game3_sn2"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/tog_btn_fm"
+            android:textOn="@string/tog_btn_ll"
+            android:id="@+id/game3_dzBtn2"
+            android:layout_toRightOf="@id/game3_sn2"
+            android:layout_marginLeft="25sp"
+            android:checked="false"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_def_zero"
+            android:id="@+id/game3_bannkazu2"
+            android:layout_centerVertical="true"
+            android:textSize="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game3_rtvLayout2"
+        android:id="@+id/game3_rtvLayout3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/lightYellow"
+        >
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_def_p3_name"
+            android:id="@+id/game3_sn3"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/tog_btn_fm"
+            android:textOn="@string/tog_btn_ll"
+            android:id="@+id/game3_dzBtn3"
+            android:layout_toRightOf="@id/game3_sn3"
+            android:layout_marginLeft="25sp"
+            android:checked="false"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_def_zero"
+            android:id="@+id/game3_bannkazu3"
+            android:layout_centerVertical="true"
+            android:textSize="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game3_rtvLayout3"
+        android:id="@+id/game3_rtvLayout4"
+        android:orientation="vertical"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_tips_basepoints"
+            android:id="@+id/game3_basePointTitle"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/game3_basePointInput"
+            android:numeric="integer"
+            android:text="@string/value_def_one"
+            android:textAlignment="center"
+            android:layout_below="@id/game3_basePointTitle"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:text="@string/value_def_sub"
+            android:id="@+id/game3_btn_bps_sub"
+            android:layout_toLeftOf="@id/game3_basePointInput"
+            android:layout_below="@id/game3_basePointTitle"/>
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:text="@string/value_def_add"
+            android:id="@+id/game3_btn_bps_add"
+            android:layout_toRightOf="@id/game3_basePointInput"
+            android:layout_below="@id/game3_basePointTitle"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game3_rtvLayout3"
+        android:id="@+id/game3_rtvLayout5"
+        android:orientation="vertical"
+        android:layout_width="135dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_tips_bannkazu"
+            android:id="@+id/game3_bannkazuTitle"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/game3_bannkazuInput"
+            android:numeric="integer"
+            android:text="@string/value_def_one"
+            android:textAlignment="center"
+            android:layout_below="@id/game3_bannkazuTitle"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:text="@string/value_def_sub"
+            android:id="@+id/game3_btn_sub"
+            android:layout_toLeftOf="@id/game3_bannkazuInput"
+            android:layout_below="@id/game3_bannkazuTitle"/>
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:text="@string/value_def_add"
+            android:id="@+id/game3_btn_add"
+            android:layout_toRightOf="@id/game3_bannkazuInput"
+            android:layout_below="@id/game3_bannkazuTitle"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game3_rtvLayout5"
+        android:id="@+id/game3_rtvLayout6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_spring2"
+            android:id="@+id/game3_ckb"
+            android:checked="false"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/game3_rtvLayout7"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/gray"
+        android:layout_below="@+id/game3_rtvLayout6">
+
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_farmer_win"
+            android:id="@+id/game3_farmerWinBtn"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/Green"
+            />
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_landlord_win"
+            android:id="@+id/game3_landlordWinBtn"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/Blue"
+            />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

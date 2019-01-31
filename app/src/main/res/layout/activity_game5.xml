@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".landlord5.Intro5Activity">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/game_rtvLayout1"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/lightYellow"
+        >
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_def_p1_name"
+            android:id="@+id/game_sn1"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/tog_btn_fm"
+            android:textOn="@string/tog_btn_ll"
+            android:id="@+id/game_dzBtn1"
+            android:layout_toRightOf="@id/game_sn1"
+            android:layout_marginLeft="25sp"
+            android:checked="false"
+            android:layout_centerVertical="true"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_spring1"
+            android:id="@+id/game_ckb1"
+            android:checked="false"
+            android:layout_toRightOf="@id/game_dzBtn1"
+            android:layout_marginLeft="25sp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_def_zero"
+            android:id="@+id/game_bannkazu1"
+            android:layout_centerVertical="true"
+            android:textSize="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game_rtvLayout1"
+        android:id="@+id/game_rtvLayout2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_def_p2_name"
+            android:id="@+id/game_sn2"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/tog_btn_fm"
+            android:textOn="@string/tog_btn_ll"
+            android:id="@+id/game_dzBtn2"
+            android:layout_toRightOf="@id/game_sn2"
+            android:layout_marginLeft="25sp"
+            android:checked="false"
+            android:layout_centerVertical="true"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_spring1"
+            android:id="@+id/game_ckb2"
+            android:checked="false"
+            android:layout_toRightOf="@id/game_dzBtn2"
+            android:layout_marginLeft="25sp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_def_zero"
+            android:id="@+id/game_bannkazu2"
+            android:layout_centerVertical="true"
+            android:textSize="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game_rtvLayout2"
+        android:id="@+id/game_rtvLayout3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/lightYellow"
+        >
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_def_p3_name"
+            android:id="@+id/game_sn3"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/tog_btn_fm"
+            android:textOn="@string/tog_btn_ll"
+            android:id="@+id/game_dzBtn3"
+            android:layout_toRightOf="@id/game_sn3"
+            android:layout_marginLeft="25sp"
+            android:checked="false"
+            android:layout_centerVertical="true"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_spring1"
+            android:id="@+id/game_ckb3"
+            android:checked="false"
+            android:layout_toRightOf="@id/game_dzBtn3"
+            android:layout_marginLeft="25sp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_def_zero"
+            android:id="@+id/game_bannkazu3"
+            android:layout_centerVertical="true"
+            android:textSize="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game_rtvLayout3"
+        android:id="@+id/game_rtvLayout4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_def_p4_name"
+            android:id="@+id/game_sn4"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/tog_btn_fm"
+            android:textOn="@string/tog_btn_ll"
+            android:id="@+id/game_dzBtn4"
+            android:layout_toRightOf="@id/game_sn4"
+            android:layout_marginLeft="25sp"
+            android:checked="false"
+            android:layout_centerVertical="true"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_spring1"
+            android:id="@+id/game_ckb4"
+            android:checked="false"
+            android:layout_toRightOf="@id/game_dzBtn4"
+            android:layout_marginLeft="25sp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_def_zero"
+            android:id="@+id/game_bannkazu4"
+            android:layout_centerVertical="true"
+            android:textSize="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game_rtvLayout4"
+        android:id="@+id/game_rtvLayout5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/lightYellow"
+        >
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_def_p5_name"
+            android:id="@+id/game_sn5"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/tog_btn_fm"
+            android:textOn="@string/tog_btn_ll"
+            android:id="@+id/game_dzBtn5"
+            android:layout_toRightOf="@id/game_sn5"
+            android:layout_marginLeft="25sp"
+            android:checked="false"
+            android:layout_centerVertical="true"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_spring1"
+            android:id="@+id/game_ckb5"
+            android:checked="false"
+            android:layout_toRightOf="@id/game_dzBtn5"
+            android:layout_marginLeft="25sp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_def_zero"
+            android:id="@+id/game_bannkazu5"
+            android:layout_centerVertical="true"
+            android:textSize="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game_rtvLayout5"
+        android:id="@+id/game_rtvLayout6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_tips_bannkazu"
+            android:id="@+id/game_sn6"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_inputBannkazu"
+            android:numeric="integer"
+            android:text="1"
+            android:textAlignment="center"
+            android:layout_below="@id/game_sn6"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:text="-"
+            android:id="@+id/game_btn_sub"
+            android:layout_toLeftOf="@id/game_inputBannkazu"
+            android:layout_below="@id/game_sn6"/>
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:text="+"
+            android:id="@+id/game_btn_add"
+            android:layout_toRightOf="@id/game_inputBannkazu"
+            android:layout_below="@id/game_sn6"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/game_rtvLayout6"
+        android:id="@+id/game_rtvLayout7"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:background="@color/gray"
+        >
+
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_farmer_win"
+            android:id="@+id/game_farmerWinBtn"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/Green"
+            />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_landlord_win"
+            android:id="@+id/game_landlordWinBtn"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/Blue"
+            />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

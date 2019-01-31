@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/settings_clean_db"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="32dp"
+        android:text="@string/btn_settings_clean_db"
+        />
+
+    <Button
+        android:id="@+id/settings_clean_sp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:text="@string/btn_settings_clean_sp"
+        />
+
+    <Button
+        android:id="@+id/settings_specification"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:text="@string/btn_settings_specitication"
+        />
+
+    <Button
+        android:id="@+id/settings_financing"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:text="@string/btn_settings_financing"
+        />
+
+</LinearLayout>

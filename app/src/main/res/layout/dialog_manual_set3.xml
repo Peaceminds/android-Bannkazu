@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dialog_msa3_layout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="@string/title_mt_main"
+        android:id="@+id/dialog_msa3_title"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Space
+        android:id="@+id/dialog_msa3_spc1"
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_below="@id/dialog_msa3_title"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="@string/text_def_p1_name_indi"
+        android:id="@+id/dialog_msa3_t1"
+        android:layout_below="@id/dialog_msa3_title"
+        android:layout_toLeftOf="@id/dialog_msa3_spc1"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <EditText
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:id="@+id/dialog_msa3_scv1"
+        android:layout_alignBottom="@+id/dialog_msa3_t1"
+        android:layout_toRightOf="@id/dialog_msa3_spc1"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="@string/text_def_p2_name_indi"
+        android:id="@+id/dialog_msa3_t2"
+        android:layout_below="@+id/dialog_msa3_t1"
+        android:layout_alignLeft="@+id/dialog_msa3_t1"
+        android:layout_alignStart="@+id/dialog_msa3_t1"
+        android:layout_marginTop="28dp"/>
+
+    <EditText
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:id="@+id/dialog_msa3_scv2"
+        android:layout_alignBottom="@+id/dialog_msa3_t2"
+        android:layout_alignLeft="@+id/dialog_msa3_scv1"
+        android:layout_alignStart="@+id/dialog_msa3_scv1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="@string/text_def_p3_name_indi"
+        android:id="@+id/dialog_msa3_t3"
+        android:layout_below="@+id/dialog_msa3_t2"
+        android:layout_alignLeft="@+id/dialog_msa3_t2"
+        android:layout_alignStart="@+id/dialog_msa3_t2"
+        android:layout_marginTop="28dp"/>
+
+    <EditText
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_msa3_scv3"
+        android:inputType="numberSigned"
+        android:layout_alignBottom="@+id/dialog_msa3_t3"
+        android:layout_alignLeft="@+id/dialog_msa3_scv2"
+        android:layout_alignStart="@+id/dialog_msa3_scv2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_no_short"
+        android:id="@+id/dialog_msa3_cclbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="39dp"
+        android:layout_toLeftOf="@+id/dialog_msa3_spc2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_ok_short"
+        android:id="@+id/dialog_msa3_cfmbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/dialog_msa3_spc2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="39dp" />
+
+    <Space
+        android:id="@+id/dialog_msa3_spc2"
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_marginBottom="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

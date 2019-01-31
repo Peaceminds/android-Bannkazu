@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".landlord5.Intro5Activity">
+
+    <item
+        android:id="@+id/act_settings"
+        android:title="@string/menu_set"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/act_manual_calc"
+        android:title="@string/menu_modify"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/act_finish_game"
+        android:title="@string/menu_zero"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/act_recovery"
+        android:title="@string/menu_recover"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/act_time_machine"
+        android:title="@string/menu_history"
+        app:showAsAction="collapseActionView"/>
+
+
+</menu>
